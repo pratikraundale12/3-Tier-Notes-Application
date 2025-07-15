@@ -2,8 +2,6 @@
 
 A simple Notes application built with **Django** and optionally React, containerized using **Docker Compose** for seamless development and deployment.
 
----
-
 ## 📦 Requirements
 
 - Python 3.9
@@ -11,21 +9,19 @@ A simple Notes application built with **Django** and optionally React, container
 - Docker
 - Docker Compose
 
----
-
 ## 🚀 Getting Started
-# 📝 Django Notes App
-
-## 🚀 How to Run
 
 ### ▶️ Using Docker Compose
 
+```bash
 git clone https://github.com/your-username/django-notes-app.git
 cd django-notes-app
 docker-compose up --build
+```
 
-**▶️ Running Locally without Docker**
+### ▶️ Running Locally without Docker
 
+```bash
 cd django-notes-app
 python -m venv venv
 venv\Scripts\activate      # On Windows
@@ -33,5 +29,6 @@ venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
-Visit: http://127.0.0.1:8000
+**Visit:** http://127.0.0.1:8000
